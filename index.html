@@ -21,6 +21,18 @@
             left: 0;
         }
 
+        .logo{
+            position: absolute;
+            bottom: 1%;
+            right: 1%;
+        }
+
+        .logo img{
+            border-radius: 25%;
+            width: 75px;
+            height: 75px;
+        }
+
         .message {
             position: absolute;
             bottom: 20%;
@@ -40,6 +52,7 @@
 <body>
     <canvas id="fireworks"></canvas>
     <div class="message">С Новым Годом!</div>
+    <div class="logo"><img src="./logo.jpg" alt="logo"></div>
 
     <script>
         const canvas = document.getElementById('fireworks');
